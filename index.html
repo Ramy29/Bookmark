@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="Icon" href="images/bookmark.png">
+</head>
+<body>
+   
+<div class="container">
+    <h2>Bookmarker</h2>
+    <div class="hr"> </div>
+    <h4><i class="fa-solid fa-arrow-down"></i> Bookmark your favorite sites <i class="fa-solid fa-arrow-down"></i></h4>
+    <label for="sitename"><i class="fa-solid fa-hand"></i> Site Name </label><br>
+
+    <input id="sitename" type="text" class="form-control" placeholder="BookMart Name"><br>
+
+    <label for="siteurl" class="pt-2"><i class="fa-solid fa-link "></i> Site Url</label><br>
+
+    <input id="siteurl" type="text" class="form-control" placeholder="BookMart Url">
+    
+    <p>
+        *please check the URL is correct (Should start by https or http)
+    </p>
+
+     <div id="submit" class="btn-primary  ">Submit</div>
+     <div class="hr"></div>
+     <table>
+        <thead>
+            <th>Index</th>
+            <th>Website Name</th>
+            <th>Visit</th>
+            <th>Delete</th>
+        </thead>
+        <tbody id="tbody" >
+          
+        </tbody>
+     </table>
+</div>
+
+
+<script src="main.js"></script> 
+   <script src="js/cdnjs.cloudflare.com_ajax_libs_popper.js_1.11.0_umd_popper.min.js"></script>
+   <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+   <script src="js/bootstrap.js"></script>
+</body>
+</html>
