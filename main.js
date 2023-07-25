@@ -23,7 +23,7 @@ submit.onclick=function(){
 
     cleardata()
     
-
+    showdata();
 }
 
 
